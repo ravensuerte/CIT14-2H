@@ -4,7 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
+    <h1>RESUME</h1>
+    
     <style>
+         .container {
+            position: relative;
+        }
+
+        .top-right-image {
+            position: absolute;
+            top: 10px;
+            left: 40px;
+      
+        }
+        h1{
+            text-align: center;
+        }
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -17,10 +32,15 @@
             margin: 0 auto;
             padding: 20px;
         }
+       
 
         .header {
-            text-align: center;
-        }
+            text-align: left;
+            padding-bottom: 8px;
+            margin-bottom: 8px;
+            border-bottom: solid 1px #e1e1e1;
+            }
+        
 
         .name {
             font-size: 24px;
@@ -45,14 +65,20 @@
             margin-top: 10px;
         }
     </style>
+    <div class="container">
+        <img src="raven.jpg" alt="Your Image" class="top-right-image" width="100" height="100">
+        <!-- Replace 'your-image.jpg' with the path to your image file. -->
+        
+    </div>
 </head>
 <body>
+    
     <div class="resume">
         <div class="header">
             <div class="name">Binay-an,Raven Jay Suerte.</div>
             <div class="contact">Email: opparavenjays@gmail.com </div>
         </div> 
-        
+       
         <div class="section">
             <div class="section-header">Summary</div>
             <div class="section-content">
@@ -63,6 +89,22 @@
                   where I am eager to apply my coding expertise to create immersive and interactive gaming experiences. 
                   My goal is to adopt my Skill in coding into a role as a game developer in the future,
                  where I can combine my technical skills and creative vision to contribute to the exciting and dynamic field of game design.
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">Experience</div>
+            <div class="section-content">
+                <ul>
+                    <li>
+                        Learning how to design, create, and manage databases is a crucial aspect of IT education. You may work with database systems like MySQL, Oracle, or Microsoft SQL Server.
+
+                    </li>
+                    <li>
+                         Understanding computer networks and network administration is essential. You may configure routers, switches, and learn about network protocols and security. 
+                    </li>
+                    
+                </ul>
             </div>
         </div>
 
@@ -83,16 +125,7 @@
             </div>
         </div>
 
-        <div class="section">
-            <div class="section-header">Experience</div>
-            <div class="section-content">
-                <ul>
-                    <li>
-                        <strong>Student coding background</strong>
-                    </li>
-                </ul>
-            </div>
-        </div>
+        
 
         <div class="section">
             <div class="section-header">Skills</div>
@@ -109,14 +142,32 @@
             </div>
         </div>
     </div>
+
+
+    
+
+       
+
+             
+
+
 </body>
 <footer>
     <style>
-        .h6{
+        h6{
+            position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            /* Height of the footer*/
+
+
             text-align: center;
         }
     </style>
-    <h6 class="h6">Raven</h6>
+    <div>
+        <h6 >Raven</h6>
+    </div>
 </footer>
 </html>
   
