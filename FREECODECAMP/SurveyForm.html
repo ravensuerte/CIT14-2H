@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Survey Form</title>
+</head>
+<body>
+  <style>
+    h1{
+      text-align: center;
+      color: white;
+    }
+    body{
+      color: white;
+      background-color: rgb(54, 49, 49);
+      text-align: center;
+    }
+    .descrption{
+      text-align: center;
+
+    }
+    div{
+      text-align: center;
+    }
+  </style>
+  <h1 id="title">Survey Form</h1>
+<div>
+  <h3 id="description" class="descrption">Thank you for taking the time to help us improve the platform</h3>
+
+  <form id="survey-form">
+    <!-- Name Input -->
+      <label for="name" id="name-label">Name:</label>
+      <div>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    </div>
+  
+    <!-- Email Input -->
+    
+    <label for="email" id="email-label">Email:</label>
+    <div>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    </div>
+    <!-- Number Input -->
+    
+    <label for="number" id="number-label"> Age:</label>
+    <div>
+    <input type="number" id="number" name="age" placeholder="Enter your age"  required>
+    </div>
+    <!-- Dropdown Select -->
+    
+    <label for="dropdown">Which option best describes your current role?</label>
+    <div>
+    <select id="dropdown" name="referrer">
+      <option value="word-of-mouth">Word of Mouth</option>
+      <option value="online-search">Online Search</option>
+      <option value="social-media">Social Media</option>
+      <option value="other">Other</option>
+    </select>
+    </div>
+  </div> 
+</body>
+</html>
