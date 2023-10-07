@@ -18,3 +18,94 @@ body{
     border-radius: 46%;
     background: linear-gradient(#5e5e5e 85%,#45454f 100%);
 }
+.cat-left-ear{
+    position: absolute;
+    top: -26px;
+    left: -31px;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent ;
+    border-bottom: 70px solid #5e5e5e;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 10px;
+    transform: rotate(-45deg);
+    z-index: 1;
+}
+.cat-right-ear{
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 70px solid #5e5e5e;
+    position: absolute;
+    top: -26px;
+    left: 163px;
+    transform: rotate(45deg);
+    border-top-left-radius: 90px;
+    border-top-right-radius: 10px;
+    z-index: 1;
+}
+.cat-left-inner-ear{
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 40px solid #3b3b4f;
+    position: absolute;
+    top: 22px;
+    left: -20px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 40%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 90px;
+    border-bottom-left-radius:40%;
+}
+.cat-right-inner-ear{
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 40px solid #3b3b4f;
+    position: absolute;
+    top: 22px;
+    left: -20px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+  border-bottom-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+   border-top-left-radius: 90px;
+}
+.cat-left-eye{
+    width: 30px;
+    height: 40px;
+    background-color: #000;
+    position: absolute;
+    top: 54px;
+    left: 39px;
+    border-radius: 60%;
+    transform: rotate(25deg);
+}
+.cat-right-eye{
+    width: 30px;
+    height: 40px;
+    background-color: #000;
+    position: absolute;
+    top: 54px;
+    left: 134px;
+    border-radius: 60%;
+    transform: rotate(-25deg);
+}
+.cat-left-inner-eye{
+    width: 10px;
+    height: 20px;
+    background-color: #fff;
+    position: absolute;
+    top: 8px;
+    left: 2px;
+    border-radius: 60%;
+    transform: rotate(10deg);
+}
+.cat-right-inner-eye{
+    width: 10px;
+    height: 20px;
+    background-color: #fff;
+    position: absolute;
+    top: 8px;
+    left: 18px;
+    border-radius: 60%;
+    transform: rotate(-5deg);
+}
